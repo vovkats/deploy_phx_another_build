@@ -15,7 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :deploy_phoenix, DeployPhoenix.Endpoint,
        http: [port: 8888],
-       url: [host: "91.226.81.140", port: 80],
+       url: [host: "91.226.81.140", port: 8888],
        cache_static_manifest: "priv/static/manifest.json"
 
 # Do not print debug messages in production
